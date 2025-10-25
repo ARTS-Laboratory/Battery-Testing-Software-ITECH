@@ -1,5 +1,5 @@
 # Battery-Testing-Software-ITECH
-
+This repo holds the high-level and stable control code for the ITECH systems. The NHR system code can be found [here](https://github.com/ARTS-Laboratory/Battery-Testing-Software-NHR), and the original and deprecated codebase can be found [here](https://github.com/ARTS-Laboratory/Battery-Testing-Software).
 
 ## How to Use This Repo (Common Guidance)
 
