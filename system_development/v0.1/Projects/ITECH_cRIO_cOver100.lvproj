@@ -119,6 +119,7 @@
 				<Item Name="DU64_U32AddWithOverflow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32AddWithOverflow.vi"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -284,12 +285,12 @@
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
 			<Item Name="BatterySettings.vi" Type="VI" URL="../../Device-Interface-Layer/BatterySettings.vi"/>
+			<Item Name="Beep Off.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Beep Off.vi"/>
 			<Item Name="Chrg_Dschrg_1.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg_1.vi"/>
 			<Item Name="Chrg_Dschrg_2.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg_2.vi"/>
 			<Item Name="Chrg_Dschrg_3.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg_3.vi"/>
 			<Item Name="Configure Channel.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Configure Channel.vi"/>
 			<Item Name="Default Instrument Setup.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Default Instrument Setup.vi"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -297,6 +298,9 @@
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
 			<Item Name="Reset.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Reset.vi"/>
 			<Item Name="Set Sense Voltage On.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Set Sense Voltage On.vi"/>
+			<Item Name="stop button1.vi" Type="VI" URL="../../Device-Interface-Layer/stop button1.vi"/>
+			<Item Name="stop button2.vi" Type="VI" URL="../../Device-Interface-Layer/stop button2.vi"/>
+			<Item Name="stop button3.vi" Type="VI" URL="../../Device-Interface-Layer/stop button3.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -608,6 +612,7 @@ DirectoryIndex index.htm
 		<Item Name="Chrg_Dschrg_1.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg_1.vi"/>
 		<Item Name="Chrg_Dschrg_2.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg_2.vi"/>
 		<Item Name="Chrg_Dschrg_3.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg_3.vi"/>
+		<Item Name="Beep Off.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Beep Off.vi"/>
 		<Item Name="Wait.vi" Type="VI" URL="../../Device-Interface-Layer/Wait.vi"/>
 		<Item Name="Filestructure.vi" Type="VI" URL="../../Device-Interface-Layer/Filestructure.vi"/>
 		<Item Name="Reset.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Reset.vi"/>
@@ -873,10 +878,10 @@ DirectoryIndex index.htm
 				<Item Name="ex_createNewChannelsTDMS.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_TDMS/ex_createNewChannelsTDMS.vi"/>
 				<Item Name="TDMSAddBlankElem1d.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSAddBlankElem1d.vi"/>
 				<Item Name="ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ClearError.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
 			<Item Name="IT-M3400.lvlib" Type="Library" URL="../../Drivers-IT-M3400/IT-M3400.lvlib"/>
 			<Item Name="Configure Channel.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Configure Channel.vi"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../Drivers-Essentials/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="Read Output.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Data/Read Output.vi"/>
 			<Item Name="Default Instrument Setup.vi" Type="VI" URL="../../Drivers-IT-M3400/Private/Default Instrument Setup.vi"/>
 			<Item Name="Set Sense Voltage On.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/Set Sense Voltage On.vi"/>
@@ -902,7 +907,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A1B96E7C-02B2-4906-9239-3BEC2065FDC1}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -913,7 +918,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E9EA16FC-572D-4810-BDF4-F775805ECF45}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EE0AC03E-CD0D-402C-A25E-177416F6CCA2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/NI-cRIO-9035-Rack3/Chrg_Dschrg_3.vi</Property>
@@ -923,6 +928,10 @@ DirectoryIndex index.htm
 				<Property Name="Source[10].itemID" Type="Ref">/NI-cRIO-9035-Rack3/stop button3.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/NI-cRIO-9035-Rack3/Beep Off.vi</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/NI-cRIO-9035-Rack3/Wait.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -955,7 +964,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[9].itemID" Type="Ref">/NI-cRIO-9035-Rack3/stop button2.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of South Carolina</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">cOver100</Property>
 				<Property Name="TgtF_internalName" Type="Str">cOver100</Property>
