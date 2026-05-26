@@ -22,8 +22,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Chrg_Dschrg.vi" Type="VI" URL="../../Device-Interface-Layer/Chrg_Dschrg.vi"/>
 		<Item Name="Cycling_No_DAQ_Tasks_RT - cOver100.vi" Type="VI" URL="../../Control-Applications/Cycling_No_DAQ_Tasks_RT - cOver100.vi"/>
 		<Item Name="IT-M3400.lvlib" Type="Library" URL="../../Drivers-IT-M3400/IT-M3400.lvlib"/>
+		<Item Name="PS_test.vi" Type="VI" URL="../../Drivers-IT-M3400/Public/Utility/PS_test.vi"/>
 		<Item Name="Wait.vi" Type="VI" URL="../../Device-Interface-Layer/Wait.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -907,7 +909,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A1B96E7C-02B2-4906-9239-3BEC2065FDC1}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
